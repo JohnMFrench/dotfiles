@@ -74,3 +74,8 @@ else
 endif
 
 
+set clipboard=unnamedplus
+
+" open terminal in vertically split pane
+command! Vterm vsplit | wincmd l | execute 'terminal' | startinsert | wincmd j | close
+
